@@ -33,9 +33,9 @@ We recommend you use the latest version of Chrome or Firefox to complete this wo
 
 This workshop is divided into multiple modules. Module 1 must be completed first. You can complete the other modules (Modules 2 and 3) in any order.  
 
-1. Creating a Notebook Instance
-2. Image Classification Using P3  (Optional)
-3. Object Detection Using P3
+1. Creating a Notebook Instance (in Oregon)
+2. Object Detection Using P3
+3. Running GluonNLP BERT Model
 
 Be patient as you work your way through the notebook-based modules. After you run a cell in a notebook, it may take several seconds for the code to show results. For the cells that start training jobs, it may take 10 to 30 minutes. 
 
@@ -68,9 +68,9 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 </p></details>
 
-### 2. Launching the Notebook Instance
+### 2. Launching the Notebook Instance  (**Pick Oregon**)
 
-1. In the upper-right corner of the AWS Management Console, confirm you are in the desired AWS region. Select N. Virginia, Oregon, Ohio.
+1. In the upper-right corner of the AWS Management Console, confirm you are in the desired AWS region. Select N. Virginia, **Oregon**, Ohio.
 
 2. Click on Amazon SageMaker from the list of all services.  This will bring you to the Amazon SageMaker console homepage.
 
@@ -85,7 +85,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 ![Create Notebook Instance](./images/create-notebook1.png)
 
-5. For IAM role, choose **Create a new role**. On the next screen, select **Specific S3 buckets** for the **S3 buckets you specify - optional** section, enter the name of the S3 bucket you created in the last step **It is important to double check your bucket name**, and click **Create role** to continue.
+5. For IAM role, choose **Create a new role**. On the next screen, select **Specific S3 buckets** for the **S3 buckets you specify - optional** section, enter the name of the S3 bucket you created in the last step **It is important to double check your bucket name, use copy and paste to avoid human error**, and click **Create role** to continue.
 
 ![Create IAM Role](./images/IAMrole.png)
 
