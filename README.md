@@ -80,7 +80,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 ![Notebook Instances](./images/new_instance.png)
 
-4. Type [First Name]-[Last Name]-workshop into the **Notebook instance name** text box, and select ml.t3.medium for the **Notebook instance type**.
+4. Type [First Name]-[Last Name]-workshop into the **Notebook instance name** text box, and select ml.p2.xlarge for the **Notebook instance type**.
 
 
 ![Create Notebook Instance](./images/create-notebook1.png)
@@ -132,7 +132,7 @@ This notebook is an end-to-end example introducing the Amazon SageMaker Object D
 2. Click on **Object-detection-P3.ipynb** to open the notebook.
 3. Follow the instructions in the notebook to continue with the lab.
 
-<p><strong>NOTE:  training the model for this example typically takes about 30 minutes.</strong></p>
+<p><strong>NOTE: Getting the dataset takes about 10 min, training the model for this example typically takes about 15 minutes, setting up an inference end point takes about 5 min</strong></p>
 
 ## Module 3: GluonNLP BERT Lab
 1. Check out a copy of the KDD Gluon Tutorial.  
