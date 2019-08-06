@@ -133,7 +133,9 @@ This notebook is an end-to-end example introducing the Amazon SageMaker Object D
 3. Follow the instructions in the notebook to continue with the lab.
 
 <p><strong>NOTE: Getting the dataset takes about 10 min, training the model for this example typically takes about 15 minutes, setting up an inference end point takes about 5 min</strong></p>
+
 **Code Highlights**
+
 SageMaker Estimator makes remote distributed training convenient.
 
 
@@ -173,7 +175,8 @@ od_model.set_hyperparameters(base_network='resnet-50',
  + git clone https://github.com/astonzhang/KDD19-tutorial
  
 2. Open Jupyter Notebook and navigate to 07_bert_app/ directory, Open the bert.ipynb.
-3. Pick the conda_mxnet36 kernel.
+3. Pick the conda_mxnet_p36 kernel.
+![workshop folder](./images/bert-kernel.png)
 3. At the top of the notebook add a cell by using the + tool symbol. 
 add the following lines in the cell:
 ```
