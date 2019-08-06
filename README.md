@@ -143,13 +143,13 @@ This notebook is an end-to-end example introducing the Amazon SageMaker Object D
 3. Pick the conda_mxnet36 kernel.
 3. At the top of the notebook add a cell by using the + tool symbol. 
 add the following lines in the cell:
-'''
+```
  !pip uninstall mxnet -y
  !pip uninstall mxnet-cu100mkl -y
  !pip install mxnet-cu100mkl
  !pip install d2l==0.8.2
  !pip install gluonNLP
-'''
+```
  4. Shift+Enter to run the cell.  
  
  
