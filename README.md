@@ -135,6 +135,8 @@ This notebook is an end-to-end example introducing the Amazon SageMaker Object D
 <p><strong>NOTE: Getting the dataset takes about 10 min, training the model for this example typically takes about 15 minutes, setting up an inference end point takes about 5 min</strong></p>
 ** Code Highlights **
 SageMaker Estimator makes remote distributed training convenient.
+
+
 ```
 od_model = sagemaker.estimator.Estimator(training_image,
                                          role, 
@@ -146,7 +148,9 @@ od_model = sagemaker.estimator.Estimator(training_image,
                                          output_path=s3_output_location,
                                          sagemaker_session=sess)
 ```
+
 Setting up Hyperparameters.
+
 ```
 od_model.set_hyperparameters(base_network='resnet-50',
                              num_classes=20,
