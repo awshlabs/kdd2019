@@ -133,7 +133,7 @@ This notebook is an end-to-end example introducing the Amazon SageMaker Object D
 3. Follow the instructions in the notebook to continue with the lab.
 
 <p><strong>NOTE: Getting the dataset takes about 10 min, training the model for this example typically takes about 15 minutes, setting up an inference end point takes about 5 min</strong></p>
-** Code Highlights **
+**Code Highlights**
 SageMaker Estimator makes remote distributed training convenient.
 
 
@@ -196,7 +196,7 @@ add the following lines in the cell:
  2. Amazon Elastic Kubernetes Service (EKS) tutorial.
     https://docs.aws.amazon.com/dlami/latest/devguide/deep-learning-containers-eks.html
 
-## Cleanup Guide   ** do the cleaning up after all labs are done**
+## Cleanup Guide   **Do the cleaning up after all labs are done**
 
 **To avoid charges** for resources you no longer need when you're done with this workshop, you can delete them or, in the case of your notebook instance, stop them.  Here are the resources you should consider:
 
