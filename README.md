@@ -179,14 +179,18 @@ od_model.set_hyperparameters(base_network='resnet-50',
 ![workshop folder](./images/bert-kernel.png)
 3. At the top of the notebook add a cell by using the + tool symbol. 
 add the following lines in the cell:
+
 ```
- !pip uninstall mxnet -y
- !pip uninstall mxnet-cu100mkl -y
- !pip install mxnet-cu100mkl
- !pip install d2l==0.8.2
- !pip install gluonNLP
+!pip uninstall mxnet -y
+!pip uninstall mxnet-cu100mkl -y
+!pip install mxnet-cu100mkl
+!pip install d2l==0.8.2
+!pip install gluonNLP
 ```
  4. Shift+Enter to run the cell.  
+ ![workshop folder](./images/bert-install-mxnet.png)
+ 
+ 5. Continue running the notebook.
  
  
  ## Additional NLP Module:  
