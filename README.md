@@ -1,2 +1,5 @@
 # kdd2019
-KDD conf
+
+Lab Content for the KDD Conference
+
+
