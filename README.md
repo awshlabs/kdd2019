@@ -153,10 +153,19 @@ add the following lines in the cell:
  4. Shift+Enter to run the cell.  
  
  
+ ## Additional NLP Module:  
+ 1. BERT Q&A Model: https://github.com/eric-haibin-lin/nlp-notebooks/blob/master/natural_language_understanding/question_answering.ipynb
+ 
+ ## Additional Container Models: 
+ 1. Amazon Elastic Container Service (Amazon ECS) tutorial.
+    https://aws.amazon.com/getting-started/tutorials/train-deep-learning-model-aws-ec2-containers/
+ 
+ 2. Amazon Elastic Kubernetes Service (EKS) tutorial.
+    https://docs.aws.amazon.com/dlami/latest/devguide/deep-learning-containers-eks.html
 
 ## Cleanup Guide   ** do the cleaning up after all labs are done**
 
-To avoid charges for resources you no longer need when you're done with this workshop, you can delete them or, in the case of your notebook instance, stop them.  Here are the resources you should consider:
+**To avoid charges** for resources you no longer need when you're done with this workshop, you can delete them or, in the case of your notebook instance, stop them.  Here are the resources you should consider:
 
 - Endpoints:  these are the clusters of one or more instances serving inferences from your models. If you did not delete them from within the notebooks, you can delete them via the SageMaker console.  To do so, click the **Endpoints** link in the left panel.  Then, for each endpoint, click the radio button next to it, then select **Delete** from the **Actions** drop down menu. You can follow a similar procedure to delete the related Models and Endpoint configurations.
 
