@@ -133,6 +133,35 @@ This notebook is an end-to-end example introducing the Amazon SageMaker Object D
 3. Follow the instructions in the notebook to continue with the lab.
 
 <p><strong>NOTE: Getting the dataset takes about 10 min, training the model for this example typically takes about 15 minutes, setting up an inference end point takes about 5 min</strong></p>
+** Code Highlights **
+SageMaker Estimator makes remote distributed training convenient.
+```
+od_model = sagemaker.estimator.Estimator(training_image,
+                                         role, 
+                                         train_instance_count=1, 
+                                         train_instance_type='ml.p3.2xlarge',
+                                         train_volume_size = 50,
+                                         train_max_run = 360000,
+                                         input_mode= 'File',
+                                         output_path=s3_output_location,
+                                         sagemaker_session=sess)
+```
+Setting up Hyperparameters.
+```
+od_model.set_hyperparameters(base_network='resnet-50',
+                             num_classes=20,
+                             mini_batch_size=16,
+                             epochs=1,
+                             learning_rate=0.001,
+                             optimizer='sgd',
+                             momentum=0.9,
+                             weight_decay=0.0005,
+                             overlap_threshold=0.5,
+                             nms_threshold=0.45,
+                             image_shape=512,
+                             label_width=350,
+                             num_training_samples=16551)
+```                        
 
 ## Module 3: GluonNLP BERT Lab
 1. Check out a copy of the KDD Gluon Tutorial.  
