@@ -1,6 +1,8 @@
 # KDD2019 Amazon SageMaker Labs
+Thank you for attending our session at KDD. 
 
-Join Chime meeting at: https://chime.aws/3762285648
+If you are interested in our Research reward program, please see the link below. Or contact me directly. 
+https://aws.amazon.com/aws-ml-research-awards/
 
 Amazon SageMaker is a fully-managed service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. Amazon EC2 P3 instances deliver the highest performance compute in the cloud, are cost-effective, support all major machine learning frameworks, and are available globally. In this workshop, you'll create a SageMaker notebook instance and work through sample Jupyter notebooks that demonstrate some of the many features of SageMaker and how Amazon EC2 P3 is used to accelerate machine learning model training.    
 
@@ -9,6 +11,8 @@ Amazon SageMaker is a fully-managed service that enables developers and data sci
 ![p3](./images/p3.png)
 
 ## Prerequisites
+
+**Slides**   https://github.com/awshlabs/kdd2019/tree/master/slides
 
 ### AWS Account
 
@@ -194,6 +198,9 @@ add the following lines in the cell:
  
  5. Continue running the notebook.
  
+ ## Anomaly Detection Module: 
+ 1. https://github.com/miroenev/teach_DL/anomaly_detection
+ 2. TBD  (we will be releassing amazon spheres dataset in the near future)
  
  ## Additional NLP Module:  
  1. BERT Q&A Model: https://github.com/eric-haibin-lin/nlp-notebooks/blob/master/natural_language_understanding/question_answering.ipynb
