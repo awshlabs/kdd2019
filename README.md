@@ -13,6 +13,7 @@ Amazon SageMaker is a fully-managed service that enables developers and data sci
 ## Prerequisites
 
 **Slides**   https://github.com/awshlabs/kdd2019/tree/master/slides
+This now includes GTC DC 2019 Slides.
 
 ### AWS Account
 
